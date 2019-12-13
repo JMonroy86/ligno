@@ -1,0 +1,136 @@
+.myjumbotron{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #02020291;
+    border-radius: .3rem;
+}
+
+.mycarousel-caption{
+    
+    text-align: left !important;
+}
+footer{
+    background-color: #337ab7;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+}
+.text{
+    font-family: 'Quicksand', sans-serif;
+}
+.blue{
+    color: #337ab7;
+}
+.white{
+    color: #ffffff;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+@media only screen and (min-width: 768px) {
+    .carousel-item img{
+        width: 100%;
+    }
+    .myhr{
+        border-top: 0.8px solid rgb(0, 47, 255);
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .carousel-item img{
+        height: 100%;
+    }
+    .myhr{
+        border-top: 0.8px solid rgb(0, 47, 255);
+    }
+  }
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+ 
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '+';
+  font-size: 55px;
+  color: rgb(149, 163, 246);
+}
+
+.carousel-control-prev-icon:after {
+  content: '+';
+  font-size: 55px;
+  color: rgb(149, 163, 246);
+}
+.black_box{
+    background: rgb(0, 0, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50% ;
+    border: 2px solid rgb(66, 66, 66);
+    margin: 0.3rem;
+}
+.red_box{
+    background: #c62828;
+    height: 20px;
+    width: 20px;
+    border-radius: 50% ;
+    border: 2px solid rgb(66, 66, 66);
+    margin: 0.3rem;
+}
+.blue_box{
+    background: #337ab7;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(66, 66, 66);
+    margin: 0.3rem;
+}
+.grey_box{
+    background: #424242;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(66, 66, 66);
+    margin: 0.3rem;
+}
+.mycard{
+    border: 1px solid #a7a7a7a1;
+    border-radius: 30px;
+}
+.mydisplay-4{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/1920.jpg") ;
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .bg_jumbotron{
+      background-color: rgba(0, 0, 0, 0.383) !important;
+      color: rgb(255, 255, 255) !important;
+      border-radius: 10px;
+      margin: 50px auto;
+  }
+
+  
