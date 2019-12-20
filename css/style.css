@@ -62,13 +62,13 @@ footer a{
 {
   content: '+';
   font-size: 55px;
-  color: rgb(149, 163, 246);
+  color: rgb(134, 150, 243);
 }
 
 .carousel-control-prev-icon:after {
   content: '+';
   font-size: 55px;
-  color: rgb(149, 163, 246);
+  color: rgb(134, 150, 243);
 }
 .black_box{
     background: rgb(0, 0, 0);
@@ -127,7 +127,7 @@ footer a{
   }
 
   .bg_jumbotron{
-      background-color: rgba(0, 0, 0, 0.383) !important;
+      background-color: rgba(0, 0, 0, 0.513) !important;
       color: rgb(255, 255, 255) !important;
       border-radius: 10px;
       margin: 50px auto;
