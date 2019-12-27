@@ -18,37 +18,42 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/LOGO_CMP_LM.png" width="150" height="60" class="d-inline-block align-top" alt="">
-
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto title">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Nosotros</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-            </ul>
-            <ul class="nav list-inline">
-                <li class="list-inline-item">
-                    <a href="#"><i class="fa fa-facebook fa-fw fa-1x"></i></a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#"><i class="fa fa-instagram fa-fw fa-1x"></i></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header class="header fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/LOGO_CMP_LM.png" width="150" height="60" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto title">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Productos y Servicios</a>
+                    </li>
+    
+    
+                </ul>
+                <ul class="nav list-inline">
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fa fa-facebook fa-fw fa-1x"></i></a>
+                    </li>
+    
+                    <li class="list-inline-item">
+                        <a href="#"><i class="fa fa-instagram fa-fw fa-1x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div id="carouselExampleSlidesOnly" class="carousel slide shadow-lg" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -539,7 +544,7 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <a class="btn btn-primary btn-lg mt-4" href="#" role="button">Ver fotos</a>
+                    <a class="btn btn-primary btn-lg mt-4" href="" role="button">Ver fotos</a>
                 </div>
             </div>
         </div>
@@ -552,9 +557,9 @@
                         <img src="img/universitaria/5761.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Linea Universitaria</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text mycard-text text-justify">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Galería de imágenes</a>
+                            <a href="universitaria.html" class="btn btn-primary">Galería de imágenes</a>
                         </div>
                     </div>
                 </div>
@@ -563,9 +568,9 @@
                         <img src="img/cocinas/5760.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Cocinas</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Galería de imágenes</a>
+                            <p class="card-text mycard-text text-justify">Creamos diseños para hacer de este espacio un ambiente elegante y funcional para que usted comparta
+                                con sus familiares y amistades.</p>
+                            <a href="cocinas.html" class="btn btn-primary">Galería de imágenes</a>
                         </div>
                     </div>
                 </div>
@@ -574,9 +579,9 @@
                         <img src="img/proyectos/5771.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Proyectos</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Galería de imágenes</a>
+                            <p class="card-text mycard-text text-justify">Desarrollamos con nuestro equipo de Arquitectos en ingenieros productos y ambientes que realzan y
+                                generan soluciones con diseño vanguardista para los diferentes sectores.</p>
+                            <a href="proyectos.html" class="btn btn-primary">Galería de imágenes</a>
                         </div>
                     </div>
                 </div>
@@ -585,7 +590,7 @@
                         <img src="img/recepciones/5765.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Recepciones</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text mycard-text text-justify">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <a href="#" class="btn btn-primary">Galería de imágenes</a>
                         </div>
@@ -596,7 +601,7 @@
                         <img src="img/conference/5764.JPG" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Salas de conferencias</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text mycard-text text-justify">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <a href="#" class="btn btn-primary">Galería de imágenes</a>
                         </div>
@@ -607,7 +612,7 @@
                         <img src="img/universitaria_pop/5764.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Universitaria Pop</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text mycard-text text-justify">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <a href="#" class="btn btn-primary">Galería de imágenes</a>
                         </div>
@@ -618,7 +623,7 @@
                         <img src="img/retail/5760.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Retail</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text mycard-text text-justify">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
                             <a href="#" class="btn btn-primary">Galería de imágenes</a>
                         </div>
@@ -629,8 +634,8 @@
                         <img src="img/closet_vestier/5759.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Closeth y Vestier</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text mycard-text text-justify">En la intimidad de su Hogar, evaluamos sus necesidades de almacenaje para crear una experiencia
+                                placentera al vestirse. </p>
                             <a href="#" class="btn btn-primary">Galería de imágenes</a>
                         </div>
                     </div>
@@ -691,6 +696,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/gallery.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
