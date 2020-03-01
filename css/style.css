@@ -4,6 +4,10 @@
     background-color: #02020291;
     border-radius: .3rem;
 }
+.mycarrousel .carousel-item img{
+    height: 520px;
+   
+}
 
 .mycarousel-caption{
     
@@ -219,11 +223,11 @@ footer a{
        height: 250px;
        object-fit: cover;
    }
-   .mycarousel .carousel-item img{
+   /* .mycarousel .carousel-item img{
     width: 100vw;
     height: 900px;
     object-fit: cover;
-   }  
+   }   */
 
     nav.scroll {
         background-color: #337ab7 !important;        
@@ -314,3 +318,78 @@ footer a{
         width: 100%;
         }
     }
+
+
+    /* video */
+    .header_video {
+        position: relative;
+        background-color: black;
+        height: 75vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .header_video video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+      }
+      
+      .header_video .container {
+        position: relative;
+        z-index: 2;
+      }
+      
+     .header_video .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: 1;
+      }
+      
+      @media (pointer: coarse) and (hover: none) {
+        .header_video {
+          background: url('/img/proyect_background.jpg') black no-repeat center center scroll;
+        }
+        .header_video video {
+          display: none;
+        }
+      }
+      #products .card .myimg {
+        width: 30%;
+        height: 85px;
+        object-fit: contain;
+        float: left;
+    }
+
+      .mydisplay-4 {
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 0.5;
+    }
+      .mydisplay-5 {
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 0.5;
+    }
+    .link-unstyled, .link-unstyled:link {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      .link-unstyled:hover{
+          color: #33b76e;
+      }
